@@ -13,12 +13,15 @@ from langchain.docstore.document import Document
 
 from dotenv import load_dotenv, find_dotenv
 import fitz  # PyMuPDF
+import os
 
 from configuracao import *
 
 _ = load_dotenv(find_dotenv())
 
-PASTA_ARQUIVOS = Path(__file__).parent / 'arquivos'
+#PASTA_ARQUIVOS = Path(__file__).parent / 'arquivos'
+PASTA_ARQUIVOS = Path('arquivos')
+os.makedirs(PASTA_ARQUIVOS, exist_ok=True)  # Cria o diretório se não existir
 
 
 def extract_text_from_pdf(pdf_path):

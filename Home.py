@@ -11,12 +11,15 @@ def sidebar():
         type=['.pdf'], 
         accept_multiple_files=True
         )
+
     if not uploaded_pdfs is None:
         for arquivo in PASTA_ARQUIVOS.glob('*.pdf'):
             arquivo.unlink()
+
         for pdf in uploaded_pdfs:
             with open(PASTA_ARQUIVOS / pdf.name, 'wb') as f:
-                f.write(pdf.read())
+               # f.write(pdf.read())
+               f.write(pdf.getbuffer())
     
     label_botao = 'Inicializar ChatBot'
     if 'chain' in st.session_state:
@@ -31,7 +34,7 @@ def sidebar():
 
 
 def chat_window():
-    st.header('🤖 Bem-vindo ao Chat PDF da JobLinker', divider=True)
+    st.header('🤖 Bem-vindo ao Chat PDF da TechLinker', divider=True)
 
     if not 'chain' in st.session_state:
         st.error('Faça o upload de PDFs para começar!')
