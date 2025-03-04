@@ -19,7 +19,6 @@ from configuracao import *
 
 load_dotenv()
 
-#os.environ["OPENAI_API_KEY"] = "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"
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
