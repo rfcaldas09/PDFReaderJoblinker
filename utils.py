@@ -9,17 +9,19 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai.embeddings import OpenAIEmbeddings
 from langchain_openai.chat_models import ChatOpenAI
 from langchain.docstore.document import Document
+import openai
+from dotenv import load_dotenv
 
-
-from dotenv import load_dotenv, find_dotenv
 import fitz  # PyMuPDF
 import os
 
 from configuracao import *
 
-_ = load_dotenv(find_dotenv())
+load_dotenv()
 
-os.environ["OPENAI_API_KEY"] = "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"
+#os.environ["OPENAI_API_KEY"] = "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"
+
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 #PASTA_ARQUIVOS = Path(__file__).parent / 'arquivos'
 PASTA_ARQUIVOS = Path('arquivos')
@@ -63,7 +65,10 @@ def split_de_documentos(documentos):
 
 
 def cria_vector_store(documentos):
-    embedding_model = OpenAIEmbeddings()
+    embedding_model = OpenAIEmbeddings(openai_api_key=openai_api_key)
+    
+    print(f"API Key: {openai_api_key}")
+
     vector_store = FAISS.from_documents(
         documents=documentos,
         embedding=embedding_model
