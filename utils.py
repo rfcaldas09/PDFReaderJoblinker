@@ -19,12 +19,11 @@ from configuracao import *
 
 _ = load_dotenv(find_dotenv())
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 #PASTA_ARQUIVOS = Path(__file__).parent / 'arquivos'
 PASTA_ARQUIVOS = Path('arquivos')
 os.makedirs(PASTA_ARQUIVOS, exist_ok=True)  # Cria o diretório se não existir
-
 
 def extract_text_from_pdf(pdf_path):
     # Usando PyMuPDF (fitz) para extrair texto
@@ -64,7 +63,9 @@ def split_de_documentos(documentos):
 
 
 def cria_vector_store(documentos):
-    embedding_model = OpenAIEmbeddings()
+    embedding_model = OpenAIEmbeddings(
+                            model="text-embedding-ada-002",
+                            api_key="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")
     vector_store = FAISS.from_documents(
         documents=documentos,
         embedding=embedding_model

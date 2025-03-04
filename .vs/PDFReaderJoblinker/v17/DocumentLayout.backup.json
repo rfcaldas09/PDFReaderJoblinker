@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{F7C13494-F131-4D99-BB67-AB9E06D70EB4}|PDFReaderJoblinker.pyproj|solutionrelative:utils.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F7C13494-F131-4D99-BB67-AB9E06D70EB4}|PDFReaderJoblinker.pyproj|C:\\Users\\nanda\\OneDrive\\\u00C1rea de Trabalho\\Meus Projetos Python\\GitHub\\PDFReaderJoblinker\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F7C13494-F131-4D99-BB67-AB9E06D70EB4}|PDFReaderJoblinker.pyproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7C13494-F131-4D99-BB67-AB9E06D70EB4}|PDFReaderJoblinker.pyproj|C:\\Users\\nanda\\OneDrive\\\u00C1rea de Trabalho\\Meus Projetos Python\\GitHub\\PDFReaderJoblinker\\Home.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F7C13494-F131-4D99-BB67-AB9E06D70EB4}|PDFReaderJoblinker.pyproj|solutionrelative:Home.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -44,10 +48,23 @@
               "RelativeDocumentMoniker": "utils.py",
               "ToolTip": "C:\\Users\\nanda\\OneDrive\\\u00C1rea de Trabalho\\Meus Projetos Python\\GitHub\\PDFReaderJoblinker\\utils.py",
               "RelativeToolTip": "utils.py",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAEwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-03-03T15:46:46.02Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\nanda\\OneDrive\\\u00C1rea de Trabalho\\Meus Projetos Python\\GitHub\\PDFReaderJoblinker\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\nanda\\OneDrive\\\u00C1rea de Trabalho\\Meus Projetos Python\\GitHub\\PDFReaderJoblinker\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-04T16:43:17.584Z",
               "EditorCaption": ""
             },
             {
@@ -56,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "requirements.txt",
               "DocumentMoniker": "C:\\Users\\nanda\\OneDrive\\\u00C1rea de Trabalho\\Meus Projetos Python\\GitHub\\PDFReaderJoblinker\\requirements.txt",
               "RelativeDocumentMoniker": "requirements.txt",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "02_Configura\u00E7\u00E3o.py",
               "DocumentMoniker": "C:\\Users\\nanda\\OneDrive\\\u00C1rea de Trabalho\\Meus Projetos Python\\GitHub\\PDFReaderJoblinker\\Pages\\02_Configura\u00E7\u00E3o.py",
               "RelativeDocumentMoniker": "Pages\\02_Configura\u00E7\u00E3o.py",
@@ -80,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "01_Debug.py",
               "DocumentMoniker": "C:\\Users\\nanda\\OneDrive\\\u00C1rea de Trabalho\\Meus Projetos Python\\GitHub\\PDFReaderJoblinker\\Pages\\01_Debug.py",
               "RelativeDocumentMoniker": "Pages\\01_Debug.py",
@@ -92,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "configuracao.py",
               "DocumentMoniker": "C:\\Users\\nanda\\OneDrive\\\u00C1rea de Trabalho\\Meus Projetos Python\\GitHub\\PDFReaderJoblinker\\configuracao.py",
               "RelativeDocumentMoniker": "configuracao.py",
@@ -104,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Home.py",
               "DocumentMoniker": "C:\\Users\\nanda\\OneDrive\\\u00C1rea de Trabalho\\Meus Projetos Python\\GitHub\\PDFReaderJoblinker\\Home.py",
               "RelativeDocumentMoniker": "Home.py",
@@ -112,8 +129,7 @@
               "RelativeToolTip": "Home.py",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-03-03T12:44:45.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T12:44:45.959Z"
             }
           ]
         }
