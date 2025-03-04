@@ -19,6 +19,8 @@ from configuracao import *
 
 _ = load_dotenv(find_dotenv())
 
+os.environ["OPENAI_API_KEY"] = "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"
+
 #PASTA_ARQUIVOS = Path(__file__).parent / 'arquivos'
 PASTA_ARQUIVOS = Path('arquivos')
 os.makedirs(PASTA_ARQUIVOS, exist_ok=True)  # Cria o diretório se não existir
