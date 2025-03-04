@@ -19,7 +19,7 @@ from configuracao import *
 
 _ = load_dotenv(find_dotenv())
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 #PASTA_ARQUIVOS = Path(__file__).parent / 'arquivos'
 PASTA_ARQUIVOS = Path('arquivos')
@@ -63,9 +63,7 @@ def split_de_documentos(documentos):
 
 
 def cria_vector_store(documentos):
-    embedding_model = OpenAIEmbeddings(
-                            model="text-embedding-ada-002",
-                            api_key="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")
+    embedding_model = OpenAIEmbeddings()
     vector_store = FAISS.from_documents(
         documents=documentos,
         embedding=embedding_model
